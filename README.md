@@ -2,7 +2,7 @@
 ## Projekt z przedmiotu "Analiza obrazu".
 ============================================================
 
-Instalacja projektu: \ 
+Instalacja projektu: \
   conda create −n ( name ) python =3.7 \
   conda activate ( name ) \
   conda install wxpython \
