@@ -3,22 +3,17 @@
 ============================================================
 
 Instalacja projektu:
-1.) Projekt zakłada zainstalowanie .... środowiska miniconda
-2.) Za pomocą minicondy tworzymy nowe środowisko:
-conda create --name [nazwa] python=3.7
-conda activate [nazwa]
-conda install : 
-tensorflow
-opencv
-imutils
-scilearning
-....
-wxpython
+conda create −n ( name ) python =3.7
+conda activate ( name )
+conda install wxpython
+conda install matplotlib
+conda install −c anaconda scikit−learn
+conda install −c conda−forge tensorflow
+conda install −c conda−forge opencv
 
 Uruchomienie:
-1. python3 ./ocr_testing.py
-2. w katalogu z plikiem
+python3 ./main_window.py
 
 Deinstalacja:
-conda deactivate [nazwa]
-conda delete [nazwa]
+conda deactivate ( name )
+conda env remove −n ( name )
