@@ -2,7 +2,7 @@
 ## Projekt z przedmiotu "Analiza obrazu".
 ============================================================
 
-Instalacja projektu: \
+**Instalacja projektu:** \
   conda create −n ( name ) python =3.7 \
   conda activate ( name ) \
   conda install wxpython \
@@ -11,9 +11,9 @@ Instalacja projektu: \
   conda install −c conda−forge tensorflow \
   conda install −c conda−forge opencv \
 \
-Uruchomienie: \
+**Uruchomienie:** \
   python3 ./main_window.py \
-\ 
-Deinstalacja: \
+\
+**Deinstalacja:** \
   conda deactivate ( name ) \
   conda env remove −n ( name ) \
